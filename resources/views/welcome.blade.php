@@ -7,6 +7,13 @@
             <section class="point clearfix">
                 <article class="pointPan">
                     <img src="{{asset('images/2_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                    <div class="pointPanCont" style="height: 239.672px; bottom: -239.672px; opacity: 1;">
+                        <div class="ppcIn" style="opacity: 0;">
+                          <h3>Broking &amp; Distribution</h3>
+                         <p>Our Broking and Distribution business helps retail customers take informed investment decisions with a strong ..</p>
+
+                          <a class="learnMore" href="/Our-Businesses/Broking-And-Distribution">Read more</a></div>
+                      </div>
                     <div class="overlay" style="z-index: 1; opacity: 1;">
                         <div class="heading"> <span><img src="{{asset('images/broking.png')}}" alt="" width="28px" height="24px" style="top: 0px;"></span> Broking &amp; Distribution </div>
                       </div>
