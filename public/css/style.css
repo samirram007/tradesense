@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+section.point {
+    width: 100%;
+    height: 100%;
+}
+section.point article.pointPan {
+    width: 50%;
+    height: calc((100vh - 170px)/2);
+    float: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: #fbb030;
+}
+section.point article.pointPan img {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+section.point article.pointPan div.pointPanCont {
+    width: 80%;
+    background: #fbb030;
+    height: 165px;
+    padding: 0 10%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+section.point article.pointPan div.pointPanCont h3 {
+    font: 300 17px/32px;
+    color: #000;
+    margin: 0 0 15px;
+}
+section.point article.pointPan div.pointPanCont p {
+    font-size: 13px;
+    color: #000;
+    margin: 0 0 20px;
+}
+section.point article.pointPan div.pointPanCont div.ppcIn {
+    position: relative;
+    opacity: 0;
+    padding-top: 15px;
+}
+section.point article.pointPan div.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+section.point article.pointPan div.overlay h3 {
+    width: 100%;
+    font: 300 18px/43px "Open Sans", sans-serif;
+    color: #eea105;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    line-height: inherit;
+}
+section.point article.pointPan div.overlay .heading {
+    font: 300 18px/43px;
+    color: #eea105;
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    top: 25%;
+    text-align: center;
+    line-height: inherit;
+}
+section.point article.pointPan div.overlay .heading span {
+    display: inline-block;
+    padding-right: 15px;
+    border-right: 1px solid #eea105;
+    margin-right: 15px;
+}
+section.point article.pointPan div.overlay .heading span img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+a.learnMore {
+    font: 400 13px/17px "Open Sans", sans-serif;
+    color: #990012;
+    background: #fff;
+    padding: 7px 18px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+}
+a.learnMore:hover {
+    border-radius: 4px;
+}
+.place-content {
+    height: 41rem;
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.place-content .place-content-copy h3 {
+    text-transform: uppercase;
+    margin-top: 10rem;
+}
+@media (min-width: 768px) {
+    .place-content .place-content-copy h3 {
+        margin-top: 5rem;
+    }
+}
+@media (min-width: 992px) {
+    .place-content {
+        height: 50rem;
+    }
+    .place-content .place-content-copy h3 {
+        margin-top: 10rem;
+    }
+}
+.place-content .place-content-copy .location {
+    color: #1096e6;
+}
+@media (min-width: 1200px) {
+    .place-content .place-content-copy {
+        padding: 1rem 4rem 4rem;
+    }
+}
+.place-image .img {
+    background-size: cover;
+    background-position: center center;
+}
+.about-content {
+    padding: 4rem;
+    height: 41rem;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .about-content {
+        height: 33.33333333rem;
+    }
+}
+.about-content.middle {
+    background: #f3f2ea;
+}
+.instagram-photo.intro {
+    text-align: center;
+}
+@media (min-width: 769px) and (max-width: 1000px) {
+    section.point article.pointPan {
+        width: 50%;
+        height: calc((100vh - 170px)/2);
+    }
+    section.point article.pointPan div.pointPanCont div.ppcIn {
+        padding-top: 20px;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+    section.point article.pointPan {
+        width: 50%;
+        height: calc((100vh - 170px)/2);
+
+    }
+}
+@media (max-width: 500px) {
+    section.point article.pointPan {
+        width: 100%;
+        margin-bottom: 2px;
+        height:74vw;
+    }
+}
+.clear {
+    clear: both;
+}

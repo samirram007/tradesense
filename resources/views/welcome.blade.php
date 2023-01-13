@@ -1,37 +1,49 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.main')
+@section('content')
+<div class="banner_wrap">
+<div>
+    <div class="place-image">
+        <div class="img">
+            <section class="point clearfix">
+                <article class="pointPan">
+                    <img src="{{asset('images/2_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                    <div class="overlay" style="z-index: 1; opacity: 1;">
+                        <div class="heading"> <span><img src="{{asset('images/broking.png')}}" alt="" width="28px" height="24px" style="top: 0px;"></span> Broking &amp; Distribution </div>
+                      </div>
+                </article>
+                <article class="pointPan">
+                    <img src="{{asset('images/3_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                    <div class="overlay" style="z-index: 1; opacity: 1;">
+                        <div class="heading"> <span><img src="{{asset('images/broking.png')}}" alt="" width="28px" height="24px" style="top: 0px;"></span> Broking &amp; Distribution </div>
+                      </div>
+                </article>
+                <article class="pointPan">
+                    <img src="{{asset('images/6_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                    <div class="overlay" style="z-index: 1; opacity: 1;">
+                        <div class="heading"> <span><img src="{{asset('images/broking.png')}}" alt="" width="28px" height="24px" style="top: 0px;"></span> Broking &amp; Distribution </div>
+                      </div>
+                </article>
+                <article class="pointPan">
+                    <img src="{{asset('images/7_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                    <div class="overlay" style="z-index: 1; opacity: 1;">
+                        <div class="heading"> <span><img src="{{asset('images/broking.png')}}" alt="" width="28px" height="24px" style="top: 0px;"></span> Broking &amp; Distribution </div>
+                      </div>
+                </article>
+            </section>
+        </div>
+    </div>
+</div>
+    {{-- <div class="row">
+        <div class="col col-4 col-sm-4 col-md border border-3 border-danger">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        </div>
+        <div class="col col-4 col-sm-4 col-md border border-3 border-danger"></div>
+        <div class="col col-4 col-sm-4 col-md border border-3 border-danger"></div>
 
-    <title>{{env('APP_NAME')}}</title>
+    </div>
+    <div class="row">
+        <div class="col-6 col-sm ol-md border border-3 border-danger"></div>
+    </div> --}}
 
-    <style>
-        body {
-            height: 100vh;
-        }
-    </style>
-    <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="{{asset('css/header.css')}}">
-    <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
-    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
-    <link rel="stylesheet" href="{{asset('css/page_content.css')}}">
-
-</head>
-
-<body>
-    @include('layouts.header')
-    @include('layouts.navbar')
-    @include('layouts.page_content')
-    @include('layouts.footer')
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+</div>
+@endsection
