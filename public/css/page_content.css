@@ -1,0 +1,13 @@
+.row .col {
+    width: 40rem;
+    height: 50vh;
+    padding: 0;
+}
+.row .col-6 {
+    height: 50vh;
+    width: 100%;
+}
+img {
+    /* height: 20rem; */
+    max-width: 100%;
+}
