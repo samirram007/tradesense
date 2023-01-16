@@ -1,7 +1,6 @@
 <div class="container-fluid">
 
-    <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
-        data-bs-target=".navbar-collapse">
+    <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navmenu">

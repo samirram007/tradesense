@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 section.point {
     width: 100%;
     height: 100%;
 }
 section.point article.pointPan {
     width: 50%;
-    height: calc((100vh - 170px)/2);
+    height: calc((100vh - 170px) / 2);
     float: left;
     position: relative;
     overflow: hidden;
@@ -149,7 +150,7 @@ a.learnMore:hover {
 @media (min-width: 769px) and (max-width: 1000px) {
     section.point article.pointPan {
         width: 50%;
-        height: calc((100vh - 170px)/2);
+        height: calc((100vh - 170px) / 2);
     }
     section.point article.pointPan div.pointPanCont div.ppcIn {
         padding-top: 20px;
@@ -158,21 +159,142 @@ a.learnMore:hover {
 @media (min-width: 501px) and (max-width: 768px) {
     section.point article.pointPan {
         width: 50%;
-        height: calc((100vh - 170px)/2);
-
+        height: calc((100vh - 170px) / 2);
     }
 }
 @media (max-width: 500px) {
     section.point article.pointPan {
         width: 100%;
         margin-bottom: 2px;
-        height:74vw;
+        height: 74vw;
     }
 }
 .clear {
     clear: both;
 }
-.img-fluid{
+.img-fluid {
     width: 100%;
     height: auto;
+}
+/* Trading Page Css */
+.trading .trading-one {
+    min-height: calc(100vh - 25vh);
+    overflow: hidden;
+}
+
+.trading .trading-one img {
+    height: 20.575rem;
+    width: 100%;
+}
+
+.img-filter {
+    filter: grayscale(60%);
+    transition: filter 0.5s ease-out;
+}
+
+.img-filter:hover {
+    filter: grayscale(0%);
+}
+
+.trading .trading-two {
+    min-height: calc(100vh - 25vh);
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.trading .trading-two img {
+    height: 20.575rem;
+    width: 100%;
+}
+
+.trading .trading-three {
+    min-height: calc(100vh - 25vh);
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.trading .trading-three img {
+    height: 20.575rem;
+    width: 100%;
+}
+
+.trading .trading-one span {
+    font-family: "Roboto Remove Black 900", sans-serif;
+    font-weight: 600;
+    background: rgb(204, 48, 64);
+    background: linear-gradient(
+        132deg,
+        rgba(204, 48, 64, 1) 49%,
+        rgba(46, 41, 41, 1) 54%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trading .trading-two span {
+    font-family: "Roboto Remove Black 900", sans-serif;
+    font-weight: 600;
+    background: rgb(204, 48, 64);
+    background: linear-gradient(
+        132deg,
+        rgba(204, 48, 64, 1) 49%,
+        rgba(46, 41, 41, 1) 54%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trading .trading-three span {
+    font-family: "Roboto Remove Black 900", sans-serif;
+    font-weight: 600;
+    background: rgb(204, 48, 64);
+    background: linear-gradient(
+        132deg,
+        rgba(204, 48, 64, 1) 49%,
+        rgba(46, 41, 41, 1) 54%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trading-button {
+    --b: 0.107rem; /* border thickness */
+    --s: 0.45em; /* size of the corner */
+    --color: #ffffff;
+    padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(
+            from 90deg at var(--b) var(--b),
+            rgba(179, 179, 179, 0) 90deg,
+            var(--color) 0
+        )
+        var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+        calc(100% - var(--b) - 2 * var(--_p));
+    transition: 0.3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: 0.6em;
+    font-family: "Robota Black 900", sans-serif;
+    font-weight: 600;
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.trading-button:hover,
+.trading-button:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: 0.05em;
+    background: rgb(204, 48, 64);
+    background: linear-gradient(
+        132deg,
+        rgba(204, 48, 64, 1) 49%,
+        rgba(46, 41, 41, 1) 54%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trading-button:active {
+    background: var(--color);
+    color: #fff;
+}
+@media (max-width: 61rem) {
 }

@@ -297,13 +297,12 @@ h4 {
     font-weight: 700;
 }
 @media all and (max-width: 999px) {
-
     .header_top,
     .header_wrap {
         height: auto;
     }
-    .header_middle{
-        height:105px;
+    .header_middle {
+        height: 105px;
     }
 }
 @media all and (max-width: 832px) {
@@ -927,6 +926,7 @@ h4 {
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
 }
+
 .expand_div {
     background: #393939;
     border-top: 5px solid #333;
@@ -1056,14 +1056,14 @@ h4 {
     .subscribe_box input.ns {
         width: 95%;
     }
-    .footer .copy,
+    /* .footer .copy,
     .footer .disclaimer,
     .footer .kweb {
         width: 100%;
         text-align: center;
         margin-left: 0;
         margin-right: 0;
-    }
+    } */
 }
 #DivShowHide,
 #fadeBg {
