@@ -39,7 +39,8 @@
                         <div class="overlay" style="z-index: 1; opacity: 1;">
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
-                                <h1><a href="#" class="text-decoration-none fs-1 text-warning">Funds &amp; Investments
+                                <h1><a href="{{route('investment')}}"
+                                        class="text-decoration-none fs-1 text-warning">Funds &amp; Investments
                                     </a></h1>
                             </div>
                         </div>
@@ -49,7 +50,8 @@
                         <div class="overlay" style="z-index: 1; opacity: 1;">
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
-                                <h1><a href="#" class="text-decoration-none fs-1 text-warning">Training</a></h1>
+                                <h1><a href="{{route('training')}}"
+                                        class="text-decoration-none fs-1 text-warning">Training</a></h1>
                             </div>
                         </div>
                     </article>
@@ -57,17 +59,7 @@
             </div>
         </div>
     </div>
-    {{-- <div class="row">
-        <div class="col col-4 col-sm-4 col-md border border-3 border-danger">
 
-        </div>
-        <div class="col col-4 col-sm-4 col-md border border-3 border-danger"></div>
-        <div class="col col-4 col-sm-4 col-md border border-3 border-danger"></div>
-
-    </div>
-    <div class="row">
-        <div class="col-6 col-sm ol-md border border-3 border-danger"></div>
-    </div> --}}
 
 </div>
 @endsection

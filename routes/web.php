@@ -24,3 +24,11 @@ Route::get('/trading', function () {
 Route::get('/insurance', function () {
     return view('insurance');
 })->name('insurance');
+
+Route::get('/investment', function () {
+    return view('investment');
+})->name('investment');
+
+Route::get('/training', function () {
+    return view('training');
+})->name('training');
