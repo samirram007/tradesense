@@ -19,7 +19,7 @@ textarea {
 body,
 html {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1;
 }
 .home_body {
     background: #efefef;
@@ -300,6 +300,7 @@ h4 {
     .header_top,
     .header_wrap {
         height: auto;
+        z-index: 1003;
     }
     .header_middle {
         height: 105px;

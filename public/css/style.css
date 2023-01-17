@@ -169,6 +169,14 @@ a.learnMore:hover {
         height: 74vw;
     }
 }
+.fixed-bottom {
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
 .clear {
     clear: both;
 }
@@ -178,12 +186,13 @@ a.learnMore:hover {
 }
 /* Trading Page Css */
 .trading .trading-one {
-    min-height: calc(100vh - 25vh);
+    min-height: calc(100vh - 1vh);
+    padding-top: 3rem!important;
     overflow: hidden;
 }
 
 .trading .trading-one img {
-    height: 20.575rem;
+    min-height: 20.575rem;
     width: 100%;
 }
 
@@ -197,22 +206,24 @@ a.learnMore:hover {
 }
 
 .trading .trading-two {
-    min-height: calc(100vh - 25vh);
-    /* border: 2px solid black; */
+    min-height: calc(100vh - 1vh);
+    padding-top: 3rem!important;
     overflow: hidden;
 }
 .trading .trading-two img {
-    height: 20.575rem;
+    min-height: 20.575rem;
     width: 100%;
 }
 
 .trading .trading-three {
-    min-height: calc(100vh - 25vh);
+    min-height: calc(100vh - 1vh);
+    padding-top: 3rem!important;
+
     /* border: 2px solid black; */
     overflow: hidden;
 }
 .trading .trading-three img {
-    height: 20.575rem;
+    min-height: 20.575rem;
     width: 100%;
 }
 
@@ -287,7 +298,7 @@ a.learnMore:hover {
     background: linear-gradient(
         132deg,
         rgba(204, 48, 64, 1) 49%,
-        rgba(46, 41, 41, 1) 54%
+        rgb(223, 214, 214) 54%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

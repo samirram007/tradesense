@@ -2,8 +2,8 @@
 @section('content')
 <div class="container-fluid trading">
     <div class="row">
-        <div class="col col-12 col-md-4 trading-one border-bottom border-info ">
-            <div class="d-flex justify-content-center align-items-center mt-5">
+        <div class="col col-12 col-md-4 trading-one border-bottom border-info bg-primary ">
+            <div class="d-flex justify-content-center align-items-center ">
                 <button class="fs-3 trading-button">Equity</button>
             </div>
             <img src="{{asset('images/trading_2.jpeg')}}" alt="" class="img-fluid img-filter pt-5 mt-1">
@@ -12,7 +12,7 @@
                 ea nisi nostrum officiis aut dolorem deleniti commodi culpa, assumenda vitae reiciendis eius odio quam
                 qui corrupti ex?</p>
         </div>
-        <div class="col col-12 col-md-4 trading-two pt-5 border-bottom border-info">
+        <div class="col col-12 col-md-4 trading-two pt-5 border-bottom border-info bg-warning">
             <div class="d-flex justify-content-center align-items-center ">
                 <button class="fs-3 trading-button">Forex</button>
             </div>
@@ -22,7 +22,7 @@
                 ea nisi nostrum officiis aut dolorem deleniti commodi culpa, assumenda vitae reiciendis eius odio quam
                 qui corrupti ex?</p>
         </div>
-        <div class="col col-12 col-md-4 trading-three pt-5 border-bottom border-info">
+        <div class="col col-12 col-md-4 trading-three pt-5 border-bottom border-info bg-success">
             <div class="d-flex justify-content-center align-items-center">
                 <button class="fs-3 trading-button">Crypto</button>
             </div>
