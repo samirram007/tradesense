@@ -1,11 +1,8 @@
-{{-- <footer class="fixed-bottom container-fluid bg-dark">
-    <div class="container web-footer">
+<footer class="fixed-bottom container-fluid bg-dark">
+    <div class=" container web-footer pt-4 text-center">
 
-        <strong class="text-white mt-3">Copyright &copy; 2014-2021 <a href="">{{env('APP_NAME')}}</a> All rights
+        <strong class="text-white mt-3">Copyright &copy; {{date('Y')}}<a href="">{{env('APP_NAME')}}</a> All rights
             reserved.</strong>
-
-
-
     </div>
     <div class="mobile-footer">
         <nav class="footer-nav">
@@ -24,4 +21,4 @@
             </a>
         </nav>
     </div>
-</footer> --}}
+</footer>
