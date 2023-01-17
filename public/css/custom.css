@@ -1160,3 +1160,7 @@ h4 {
         margin: 10px auto;
     }
 }
+
+.header_middle .navbar-.nav .nav-item {
+    border-bottom: 3px solid #8b262f;
+}

@@ -20,7 +20,7 @@
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
                                 <h1><a href="{{route('trading')}}"
-                                        class="text-decoration-none fs-1 trading-button text-warning">Trading</a></h1>
+                                        class="text-decoration-none fs-1 button-89 text-warning">Trading</a></h1>
                             </div>
                         </div>
                     </article>
@@ -30,7 +30,7 @@
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
                                 <h1><a href="{{route('insurance')}}"
-                                        class="text-decoration-none fs-1 text-warning">Insurance</a></h1>
+                                        class="text-decoration-none trading-button fs-1 text-warning">Insurance</a></h1>
                             </div>
                         </div>
                     </article>
@@ -40,7 +40,8 @@
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
                                 <h1><a href="{{route('investment')}}"
-                                        class="text-decoration-none fs-1 text-warning">Funds &amp; Investments
+                                        class="text-decoration-none trading-button fs-1 text-warning">Funds &amp;
+                                        Investments
                                     </a></h1>
                             </div>
                         </div>
@@ -51,7 +52,7 @@
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
                                 <h1><a href="{{route('training')}}"
-                                        class="text-decoration-none fs-1 text-warning">Training</a></h1>
+                                        class="text-decoration-none trading-button fs-1 text-warning">Training</a></h1>
                             </div>
                         </div>
                     </article>
