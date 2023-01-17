@@ -176,7 +176,7 @@ a.learnMore:hover {
     bottom: 0;
     left: 0;
     z-index: 1030;
-    background: rgb(189, 62, 75);
+    /* background: rgb(189, 62, 75);
     background: radial-gradient(
         circle,
         rgba(189, 62, 75, 1) 10%,
@@ -186,26 +186,26 @@ a.learnMore:hover {
     );
     transition: all 0.5s ease-in-out;
 
-    font-family: "Roboto Black", sans-serif;
+    font-family: "Roboto Black", sans-serif; */
 }
 
-.fixed-bottom:hover {
+/* .fixed-bottom:hover {
     height: 62vh;
     transition: all 0.5s ease-in-out;
-}
+} */
 
 .fixed-footer {
     height: 3.85rem;
 }
-.fixed-bottom:hover,
+/* .fixed-bottom:hover,
 .website-footer {
     margin-top: 4rem;
-}
+} */
 
-.footer-brand {
+/* .footer-brand {
     height: 8rem;
     width: 10rem;
-}
+} */
 
 .clear {
     clear: both;
