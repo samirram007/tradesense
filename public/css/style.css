@@ -187,7 +187,7 @@ a.learnMore:hover {
 /* Trading Page Css */
 .trading .trading-one {
     min-height: calc(100vh - 1vh);
-    padding-top: 3rem!important;
+    padding-top: 3rem !important;
     overflow: hidden;
 }
 
@@ -207,7 +207,7 @@ a.learnMore:hover {
 
 .trading .trading-two {
     min-height: calc(100vh - 1vh);
-    padding-top: 3rem!important;
+    padding-top: 3rem !important;
     overflow: hidden;
 }
 .trading .trading-two img {
@@ -217,7 +217,7 @@ a.learnMore:hover {
 
 .trading .trading-three {
     min-height: calc(100vh - 1vh);
-    padding-top: 3rem!important;
+    padding-top: 3rem !important;
 
     /* border: 2px solid black; */
     overflow: hidden;
@@ -309,19 +309,3 @@ a.learnMore:hover {
 }
 @media (max-width: 61rem) {
 }
-
-/* .trading-button {
-    width: 11.32rem;
-    height: 4.25rem;
-    background: transparent;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 3.025rem;
-    letter-spacing: 0.25rem;
-    border: 0;
-    font-family: "Roboto Remove Black 900", sans-serif;
-    font-weight: 600;
-}
-
-.trading-button::before,
-.trading-button::after */

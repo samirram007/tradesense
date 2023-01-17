@@ -2,15 +2,9 @@
 @section('content')
 <div class="container-fluid trading">
     <div class="row">
-<<<<<<< HEAD
-        <div class="col col-12 col-md-4 trading-one border-bottom border-info ">
-            <div class="d-flex justify-content-center align-items-center mt-5">
-                <button class="fs-3 trading-button"><span></span>Equity</button>
-=======
         <div class="col col-12 col-md-4 trading-one border-bottom border-info bg-primary ">
             <div class="d-flex justify-content-center align-items-center ">
                 <button class="fs-3 trading-button">Equity</button>
->>>>>>> 5f684f3c4659dec3cc670d2abcd21afeba023c71
             </div>
             <img src="{{asset('images/trading_2.jpeg')}}" alt="" class="img-fluid img-filter pt-5 mt-1">
             <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae molestiae consequuntur
