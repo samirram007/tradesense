@@ -253,8 +253,8 @@ a.learnMore:hover {
     -webkit-text-fill-color: transparent;
 }
 .trading-button {
-    --b: 0.107rem; /* border thickness */
-    --s: 0.45em; /* size of the corner */
+    --b: 0.107rem;
+    --s: 0.45em;
     --color: #ffffff;
     padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
     color: var(--color);
@@ -298,3 +298,19 @@ a.learnMore:hover {
 }
 @media (max-width: 61rem) {
 }
+
+/* .trading-button {
+    width: 11.32rem;
+    height: 4.25rem;
+    background: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3.025rem;
+    letter-spacing: 0.25rem;
+    border: 0;
+    font-family: "Roboto Remove Black 900", sans-serif;
+    font-weight: 600;
+}
+
+.trading-button::before,
+.trading-button::after */

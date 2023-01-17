@@ -29,7 +29,8 @@
                         <div class="overlay" style="z-index: 1; opacity: 1;">
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
-                                <h1><a href="" class="text-decoration-none fs-1 text-warning">Insurance</a></h1>
+                                <h1><a href="{{route('insurance')}}"
+                                        class="text-decoration-none fs-1 text-warning">Insurance</a></h1>
                             </div>
                         </div>
                     </article>

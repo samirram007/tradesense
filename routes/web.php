@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/trading', function () {
     return view('trading');
 })->name('trading');
+
+Route::get('/insurance', function () {
+    return view('insurance');
+})->name('insurance');
