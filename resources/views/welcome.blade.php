@@ -25,7 +25,7 @@
                         </div>
                     </article>
                     <article class="pointPan">
-                        <img src="{{asset('images/3_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                        <img src="{{asset('images/1_bw.jpg')}}" class="img-fluid" alt="" srcset="">
                         <div class="overlay" style="z-index: 1; opacity: 1;">
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
@@ -35,7 +35,7 @@
                         </div>
                     </article>
                     <article class="pointPan">
-                        <img src="{{asset('images/6_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                        <img src="{{asset('images/5_bw.jpg')}}" class="img-fluid" alt="" srcset="">
                         <div class="overlay" style="z-index: 1; opacity: 1;">
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
@@ -47,7 +47,7 @@
                         </div>
                     </article>
                     <article class="pointPan">
-                        <img src="{{asset('images/7_bw.jpg')}}" class="img-fluid" alt="" srcset="">
+                        <img src="{{asset('images/4_bw.jpg')}}" class="img-fluid" alt="" srcset="">
                         <div class="overlay" style="z-index: 1; opacity: 1;">
                             <div class="heading"> <span><img class="d-none" src="{{asset('images/broking.png')}}" alt=""
                                         width="28px" height="24px" style="top: 0px;"></span>
