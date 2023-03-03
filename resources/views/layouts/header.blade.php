@@ -1,5 +1,5 @@
 <div class="header_wrap position-fixed">
-    <div class="header_top ">
+    <div class="header_top {{ str_contains(Route::currentRouteName(), 'confirm_link') ? 'justify-content-start' : '' }} ">
 
         @include('layouts._header_top')
     </div>

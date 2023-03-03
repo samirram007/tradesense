@@ -1,10 +1,19 @@
-
 <div class="social_ic fade_anim">
-    <a href="" target="_blank"><img src="{{asset('images/ic_fb.png')}}" alt="" width="30px" height="30px" title="Facebook"></a>
-    <a href="" target="_blank"><img src="{{asset('images/ic_tw.png')}}" alt="" width="30px" height="30px" title="Twitter"></a>
+    <a href="" target="_blank"><img src="{{ asset('images/ic_fb.png') }}" alt="" width="30px" height="30px"
+            title="Facebook"></a>
+    <a href="" target="_blank"><img src="{{ asset('images/ic_tw.png') }}" alt="" width="30px"
+            height="30px" title="Twitter"></a>
 
-    <a href="" target="_blank"><img src="{{asset('images/ic_youtube.png')}}" alt="" width="30px" height="30px" title="YouTube"></a>
+    <a href="" target="_blank"><img src="{{ asset('images/ic_youtube.png') }}" alt="" width="30px"
+            height="30px" title="YouTube"></a>
 </div>
+
+<div class="nav-link text-light mr-md-4 mr-1 d-flex {{ str_contains(Route::currentRouteName(), 'confirm_link') ? 'sr-only' : '' }}">
+
+    <div class="px-md-2 px-0"> <button class="btn btn-link text-light" data-toggle="modal" data-target="#LoginModal">LOGIN</button> </div>
+    <div class="px-md-2 px-0 mx-md-4 mx-0"> <button class="btn btn-link text-light" data-toggle="modal" data-target="#RegisterModal"> REGISTER</button></div>
+</div>
+
 {{-- <header class=" nav-header container-fluid">
 
 
@@ -39,3 +48,14 @@
 
 
 </header> --}}
+{{-- modal  --}}
+{{--
+<div id="LoginModal" class="modal fade  " tabindex="-1" role="dialog"
+    aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            LOGIN
+        </div>
+    </div>
+</div> --}}
+
